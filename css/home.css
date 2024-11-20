@@ -1,0 +1,59 @@
+.text-highlight {
+    color: #ffc107; /* Cor amarela para "Olá!" */
+  }
+  
+  .name-highlight {
+    color: #ffc107; /* Cor amarela para "João Nazareno" */
+  }
+  
+  .text-bold {
+    font-size: 3rem; /* Fonte maior para "Me chamo João Nazareno" */
+    font-weight: 800; /* Fonte bem "gordinha" */
+  }
+  
+  #home-section {
+    padding-top: 80px;
+    text-align: center;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca o background atrás do conteúdo */
+  }
+  
+  #home-section {
+    position: relative;
+    overflow: hidden; /* Garante que as partículas não saiam da seção */
+    padding-top: 80px;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .highlight {
+    color: #fff; /* Cor branca para o texto */
+    padding-bottom: 2px; /* Espaçamento entre o texto e a linha */
+    border-bottom: 2px solid #fff; /* Linha branca abaixo do texto */
+}
