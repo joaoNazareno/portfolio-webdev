@@ -54,8 +54,6 @@
 
   .highlight {
     color: #fff; /* Cor branca para o texto */
-    padding-bottom: 2px; /* Espaçamento entre o texto e a linha */
-    border-bottom: 2px solid #fff; /* Linha branca abaixo do texto */
 }
 .video-background {
   position: absolute;
