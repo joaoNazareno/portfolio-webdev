@@ -57,3 +57,31 @@
     padding-bottom: 2px; /* Espaçamento entre o texto e a linha */
     border-bottom: 2px solid #fff; /* Linha branca abaixo do texto */
 }
+.video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta o vídeo ao tamanho do container */
+  z-index: -1; /* Coloca o vídeo atrás do conteúdo */
+}
+
+.project {
+  position: relative;
+  overflow: hidden; /* Garante que o vídeo não vaze do card */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Efeito escuro sobre o vídeo */
+  z-index: 1; /* Fica acima do vídeo */
+}
+
+.text {
+  z-index: 2; /* Garante que o texto fique acima de tudo */
+}
